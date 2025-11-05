@@ -52,3 +52,12 @@ bash ${bl_data_download}   5ffc884d2ba0fba7a7e89132 \
                             --output-prefix datatype,datatype_tag \
                             --subject 100206 \
                             '+5tt' '+anat' '+5tt_masks'
+
+
+bash ${bl_data_download}   5941a225f876b000210c11e5 \
+                            neuro/dwi \
+                            ${output_dir} \
+                            1 \
+                            --output-prefix datatype,datatype_tag \
+                            --subject 100206 \
+                            'preprocessed'
